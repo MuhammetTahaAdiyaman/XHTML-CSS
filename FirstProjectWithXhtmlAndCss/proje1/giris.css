@@ -1,0 +1,2067 @@
+.girisbackground img{
+    
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   position: absolute;
+   opacity: 90%;
+   z-index: -1;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.girisSekme{
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    left: 23%;
+    top: 47%;
+    text-align: center;
+    z-index: 3;
+  /*tam ortalamak icin yukaridaki kodlar gerekli */
+}
+
+.girisSekme ul{
+    list-style-type: none;
+    overflow: hidden;
+
+}
+
+.girisSekme ul li{
+    display: inline-block;
+    
+}
+.girisSekme li a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 16px 16px;
+    font-size: 36px;
+    font-weight: bold;
+}
+.girisSekme li a:hover{
+    color:silver;
+    transition: 0.4s;
+    
+    text-shadow: 1px 4px black;
+}
+.girisbgColor{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 35%;
+    top: 0;
+}
+
+
+
+.girislogopng img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    z-index: 1;
+}
+
+
+
+@media screen and (max-width: 500px){
+    .girisSekme> ul li {
+        float:none;
+        
+
+    }
+
+    .girisSekme{
+        top: 40%;
+    }
+
+    .girislogopng img{
+        width: 55%;
+    }
+   
+}
+
+/* anasayfa */
+
+.Anasekme{
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    
+}
+
+.Anasekme ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: darkolivegreen;
+    
+    
+}
+
+.Anasekme li {
+    float:right;
+    
+}
+
+
+
+.Anasekme li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 16px 16px;
+    font-size: 18px;
+    font-weight: medium;
+    
+}
+
+.Anasekme li a.active{
+    color: black;
+   
+    border-radius: 20px;
+    background-color: white;
+}
+.Anasekme li a:hover:not(.active){
+    color:black;
+    transition: 0.4s;
+    
+}
+
+.sp-color{
+    color: white;
+}
+
+.anaLogo img{
+    position: absolute;
+    display: block;
+    top:-48px;
+    left: -30px;
+    width: 11%;
+    z-index: 3;
+}
+
+@media screen and (max-width: 500px){
+    .Anasekme > ul li {
+        float:none;
+    }
+
+    .anaLogo img{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: -50px;
+    width: 35%;
+    z-index: 3;
+    }
+    
+   
+}
+
+.anabody1 img{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+}
+
+.anaUrunler{
+    border-radius: 20px;
+    background-color: darkolivegreen;
+    position: absolute;
+    margin-top: 640px;
+
+    width: 100%;
+    text-align: center;
+}
+
+.anaUrunler h1{
+    color: white;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+.anagallery{
+    position: absolute;
+    left: 60px;
+}
+.anaurun{
+    margin: 10px;
+    border: 1px solid #bbb;
+    margin-top: 750px;
+    margin-right: 20px;
+    float: left;
+    width: 250px;
+    height: 270px;
+    background: darkolivegreen;
+}
+
+.desc{
+    padding: 15px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+}
+
+.anaurun img{
+    width: 100%;
+   
+}
+
+.anaurun:hover{
+    border: 1px solid #ccc;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    height: 400px !important;
+    cursor: pointer;
+}
+
+.anaurun .hiddenexp{
+    visibility: hidden;
+}
+.anaurun:hover .hiddenexp{
+    visibility: visible;
+}
+.HizmetBaslik{
+    
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 1145px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.795);
+    width: 100%;
+    text-align: center;
+}
+
+.HizmetBaslik h1{
+    color: darkolivegreen;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+.anahizmet{
+    margin: 10px;
+    border: 3px solid black;
+    margin-top: 1300px;
+    margin-left: 65px;
+    float: left;
+    width: 400px;
+    height: 230px;
+    background-color:rgb(216, 211, 211);
+    
+}
+
+.anahizmet h3{
+    color: black;
+    font-size: 20px;
+    text-align:center;
+    
+}
+.anahizmet p{
+    color: black;
+    font-family:cursive;
+    font-size: 20px;
+    text-align:center;
+    
+}
+
+.anahead{   
+    padding: 15px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+}
+
+.anahizmet:hover{
+    border: 3px solid;
+    box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.726);
+}
+
+
+.anaalt{
+    border:1px solid black;
+    position: absolute;
+    margin-top: 1660px;
+    background-color: black;
+    width: 100%;
+    height: 270px;
+    background-color: darkolivegreen;
+
+}
+
+.anaaltlogo{
+    position: absolute;
+    margin-top: 1650px;
+    margin-left: -50px;
+    
+}
+/*
+.masterlogo{
+    
+        position: absolute;
+        margin-top: 1845px;
+        margin-left: 45px;
+   
+}
+*/
+
+.anaaltadres{
+    position: absolute;
+    margin-top: 1700px;
+    margin-left: 250px;
+    
+    
+}
+.anaaltadres h3,address{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    font-style: normal;
+}
+.anaaltadres h2{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.anaaltbulten{
+    position: absolute;
+    margin-top: 1700px;
+    margin-left: 650px;
+}
+
+.anaaltbulten h2{
+    color: white;
+    text-align: center;
+}
+.anaaltbulten p{
+    color: white;
+}
+.anaaltbulten #email{
+    border: 2px solid white;
+    width: 75%;
+    height: 25px;
+}
+
+#submit{
+    border: 2px solid rgb(0, 151, 151);
+    padding-bottom: 6px;
+    padding-top: 4px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    background-color: rgb(0, 151, 151);
+}
+
+.anaalttakip{
+    position: absolute;
+    margin-top: 1700px;
+    margin-left: 1050px;
+}
+.anaalttakip h2{
+    color: white;
+    text-align: center;
+}
+.anaalttakip p{
+    color: white;
+}
+.anaalttakip li{
+    display: inline;
+    list-style-type: none;
+    
+    margin-right: 20px;
+}
+
+.anaalttakip img{
+    
+    width: 30px;
+}
+
+/*hakkımızda*/
+
+.H1-Bar{
+    width: 100%;
+    background-color: #f3f3f3;
+    height: 50px;
+    position: absolute;
+    margin-top: 76px;
+}
+
+.H1-Bar p{
+    
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: small;
+}
+
+.H2-Bar{
+    width: 100%;
+    background-color: black;
+    height: 90px;
+    position: absolute;
+    margin-top: 126px;
+    opacity: 0.8;
+}
+
+.H2-Bar h1{
+    color: black;
+    text-align: left;
+    margin-top: 31px;
+    margin-left: 30px;
+    font-size: x-large;
+
+}
+.H2-Bar>.H2-Radius{
+    width: 9.7%;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 20px;
+    border-radius: 15px;
+    z-index: -1;
+}
+
+.H-icerik1{
+    background-color: none;
+    width: 100%;
+    height: 665px;
+    position: absolute;
+    margin-top: 216px;
+}
+
+.H-icerik1 .H-sol1{
+
+    position: inherit;
+    width: 50%;
+    height: inherit;
+    background-color: white;
+}
+
+.H-icerik1 .H-sag1{
+    position: inherit;
+    width: 50%;
+    height: inherit;
+    background-color: white;
+    right: 0;
+}
+
+.H-icerik1 .H-sol1 h3{
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif !important;
+    color: #4D4D4D;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 50px;
+    margin-inline-end: 50px;
+}
+
+.H-icerik1 .H-sol1 h2{
+    color: green;
+    font-family: 'Kumbh Sans', sans-serif !important;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 50px;
+    margin-inline-end: 50px;
+    font-size: 32px;
+}
+
+.H-icerik1 .H-sol1 p{
+
+    font-family:'Helvetica' !important;
+    color: #4d4d4db9;
+    direction: ltr;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    font-weight: bolder!important;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 50px;
+    margin-inline-end: 50px;
+    
+}
+
+.H-icerik1 .H-sol1 h1{
+    color:#4D4D4D;
+    font-weight: 32px!important;    
+    margin-inline-start: 50px;
+    margin-inline-end: 50px;
+    margin-block-start: 1.5em;
+    margin-block-end: 2em;
+}
+
+.H-icerik1 .H-sag1 img{
+    width: 90%;
+    margin-block-start: -2em;
+    margin-block-end: -2em;
+    margin-inline-start: 50px;
+    margin-inline-end: 50px;
+}
+
+.H-icerik2{
+    background-color: black;
+    width: 100%;
+    height: 665px;
+    position: absolute;
+    margin-top: 881px;
+}
+
+.H-icerik2 .H-sol2{
+    position: inherit;
+    width: 50%;
+    background-color: white;
+    height: inherit;
+}
+
+.H-icerik2 .H-sag2{
+    position: inherit;
+    width: 50%;
+    background-color: white;
+    height: inherit; 
+    right: 0;  
+}
+
+.H-icerik2 .H-sol2 img{
+    width: 100%;
+    margin-inline-start: 50px;
+    margin-inline-end: 50px;
+    margin-block-start: 6em;
+    margin-block-end: 6em;
+}
+
+.H-icerik2 .H-sag2 h1{
+    color: green;
+    font-family: 'Kumbh Sans', sans-serif !important;
+    margin-block-start: 6.5em;
+    margin-block-end: 1em;
+    margin-inline-start: 120px;
+    margin-inline-end: 20px;
+    font-size: 40px;
+}
+
+.H-icerik2 .H-sag2 p{
+    font-family:'Helvetica' !important;
+    color: #4d4d4db9;
+    direction: ltr;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    font-weight: bolder!important;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 120px;
+    margin-inline-end: 20px;
+    font-size: 18px;
+}
+
+.H-icerik3{
+    position: absolute;
+    width: 100%;
+    height: 665px;
+    margin-top:1546px; 
+    background-color: black;
+}
+
+.H-icerik3 .H-sol3{
+    position: inherit;
+    height: inherit;
+    width: 50%;
+    background-color: white;
+}
+
+.H-icerik3 .H-sag3{
+    position: inherit;
+    height: inherit;
+    width: 50%;
+    background-color: white;
+    right:0;
+}
+
+.H-icerik3 .H-sol3 h1{
+    color: green;
+    font-family: 'Kumbh Sans', sans-serif !important;
+    margin-block-start: 5em;
+    margin-block-end: 1em;
+    margin-inline-start: 50px;
+    margin-inline-end: 20px;
+    font-size: 40px;
+}
+
+.H-icerik3 .H-sol3 p{
+    font-family:'Helvetica' !important;
+    color: #4d4d4db9;
+    direction: ltr;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    font-weight: bolder!important;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 50px;
+    margin-inline-end: 20px;
+    font-size: 18px;
+}
+
+.H-icerik3 .H-sag3 img{
+    width: 97%;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 0px;
+    margin-inline-end:50px;
+}
+
+.H-icerik4{
+    position: absolute;
+    width: 100%;
+    height: 665px;
+    background-color: #eeebeb9a;
+    margin-top: 2211px;
+}
+
+.H-icerik4 h1{
+    color: green;
+    font-family: 'Kumbh Sans', sans-serif !important;
+    font-size: 40px;
+    margin-inline-start: 660px;
+    margin-inline-end: 200px;
+    margin-block-start: 1.5em;
+    margin-block-end: 0.8em;
+}
+
+.H-icerik4 p{
+    color:#4D4D4D;
+    font-family: 'Helvetica';
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: 45px;
+    font-weight: bolder!important;
+    margin-inline-start: 251px;
+    margin-inline-end:200px;
+    margin-block-start: 1em;
+    margin-block-end: 2em;
+    
+}
+/*hakkımızda alt menü bölüm*/
+.anaalt2{
+    border:1px solid black;
+    position: absolute;
+    margin-top: 2873px;
+    background-color: black;
+    width: 100%;
+    height: 270px;
+    background-color: darkolivegreen;
+
+}
+
+.anaaltlogo2{
+    position: absolute;
+    margin-top: 2863px;
+    margin-left: -50px;
+    
+}
+/*
+.masterlogo{
+    
+        position: absolute;
+        margin-top: 1845px;
+        margin-left: 45px;
+   
+}
+*/
+
+.anaaltadres2{
+    position: absolute;
+    margin-top: 2913px;
+    margin-left: 250px;
+    
+    
+}
+.anaaltadres2 h3,address{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    font-style: normal;
+}
+.anaaltadres2 h2{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.anaaltbulten2{
+    position: absolute;
+    margin-top: 2913px;
+    margin-left: 650px;
+}
+
+.anaaltbulten2 h2{
+    color: white;
+    text-align: center;
+}
+.anaaltbulten2 p{
+    color: white;
+}
+.anaaltbulten2 #email2{
+    border: 2px solid white;
+    width: 75%;
+    height: 25px;
+}
+
+#submit2{
+    border: 2px solid rgb(0, 151, 151);
+    padding-bottom: 6px;
+    padding-top: 4px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    background-color: rgb(0, 151, 151);
+}
+
+.anaalttakip2{
+    position: absolute;
+    margin-top: 2913px;
+    margin-left: 1050px;
+}
+.anaalttakip2 h2{
+    color: white;
+    text-align: center;
+}
+.anaalttakip2 p{
+    color: white;
+}
+.anaalttakip2 li{
+    display: inline;
+    list-style-type: none;
+    
+    margin-right: 20px;
+}
+
+.anaalttakip2 img{
+    
+    width: 30px;
+}
+
+/*urunler*/
+.U1-Bar{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    margin-top: 76px;
+    background-color: #f3f3f3;
+}
+
+.U1-Bar p{
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: small;
+}
+
+.U2-Bar{
+    width: 100%;
+    background-color: black;
+    height: 90px;
+    position: absolute;
+    margin-top: 126px;
+    opacity: 0.8;
+}
+
+.U2-Bar h1{
+    color: black;
+    text-align: left;
+    margin-top: 31px;
+    margin-left: 45px;
+    font-size: x-large;
+
+}
+.U2-Bar>.U2-Radius{
+    width: 9.7%;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 20px;
+    border-radius: 15px;
+    z-index: -1;
+}
+
+.U-icerik1{
+    width:100%;
+    height: 600px;
+    position: absolute;
+    margin-top: 216px;
+    background-color: none;
+}
+
+.U-icerik1 .U-drone1{
+    width: 600px;
+    height: 400px;
+    position: inherit;
+    margin-inline-start: 4em;
+    margin-inline-end: 4em;
+    margin-block-start: 100px;
+    margin-block-end: 100px;
+    background-color: none;
+    
+}
+
+.U-icerik1 .U-ekipman1{
+    width: 600px;
+    height: 400px;
+    position: inherit;
+    margin-inline-start: 4em;
+    margin-inline-end: 4em;
+    margin-block-start: 100px;
+    margin-block-end: 100px;
+    background-color: none;
+    right: 0;
+}
+
+
+
+.U-icerik1 .U-Sekme1{
+    width: 180px;
+    height: 80px;
+    position: inherit;
+    margin-block-start: 286px;
+    margin-block-end: 286px;
+    margin-inline-start: -13em;
+    margin-inline-end: -13em;
+    background-color: white;
+    border-radius: 30px;
+    background-color: greenyellow;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.U-icerik1 .U-Sekme1>h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 27px;
+    color:black;
+    font-size: 16px!important;
+}
+
+
+.U-icerik1 .U-Sekme1:hover>h3{
+    color: black;
+    
+}
+
+.U-icerik1 .U-Sekme1:hover{
+    box-shadow: 0 2px 16px 0 black;
+    border: 1px solid black;
+    margin-inline-start: -15em;
+    margin-inline-end: -15em;
+    border-radius: 0px 20px 0px 20px;
+    transition: 0.3s;
+}
+
+/*ürünler alt menü bölüm*/
+.anaalt3{
+    border:1px solid black;
+    position: absolute;
+    margin-top: 900px;
+    background-color: black;
+    width: 100%;
+    height: 270px;
+    background-color: darkolivegreen;
+
+}
+
+.anaaltlogo3{
+    position: absolute;
+    margin-top: 890px;
+    margin-left: -50px;
+    
+}
+/*
+.masterlogo{
+    
+        position: absolute;
+        margin-top: 1845px;
+        margin-left: 45px;
+   
+}
+*/
+
+.anaaltadres3{
+    position: absolute;
+    margin-top: 940px;
+    margin-left: 250px;
+    
+    
+}
+.anaaltadres3 h3,address{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    font-style: normal;
+}
+.anaaltadres3 h2{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.anaaltbulten3{
+    position: absolute;
+    margin-top: 940px;
+    margin-left: 650px;
+}
+
+.anaaltbulten3 h2{
+    color: white;
+    text-align: center;
+}
+.anaaltbulten3 p{
+    color: white;
+}
+.anaaltbulten3 #email3{
+    border: 2px solid white;
+    width: 75%;
+    height: 25px;
+}
+
+#submit3{
+    border: 2px solid rgb(0, 151, 151);
+    padding-bottom: 6px;
+    padding-top: 4px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    background-color: rgb(0, 151, 151);
+}
+
+.anaalttakip3{
+    position: absolute;
+    margin-top: 940px;
+    margin-left: 1050px;
+}
+.anaalttakip3 h2{
+    color: white;
+    text-align: center;
+}
+.anaalttakip3 p{
+    color: white;
+}
+.anaalttakip3 li{
+    display: inline;
+    list-style-type: none;
+    
+    margin-right: 20px;
+}
+
+.anaalttakip3 img{
+    
+    width: 30px;
+}
+
+/*urunler1.html*/
+
+.U-u1icerik1{
+    width: 100%;
+    height: 1480px;
+    position: absolute;
+    margin-top: 216px;
+    background-color: white;
+}
+
+.U-u1icerik1 .U-u1urun1{
+    width: 600px;
+    height: 600px;
+    position: inherit;
+    margin-inline-start: 6em;
+    margin-inline-end: 6em;
+    margin-block-start: 80px;
+    margin-block-end: 70px;
+    background-color: white;
+    border: 5px solid black;
+}
+
+.U-u1icerik1 .U-u1urun2{
+    width: 600px;
+    height: 600px;
+    position: inherit;
+    margin-inline-start: 6em;
+    margin-inline-end: 6em;
+    margin-block-start: 80px;
+    margin-block-end: 70px;
+    background-color: white;
+    right: 0;
+    border: 5px solid black;
+}
+
+.U-u1icerik1 .U-u1urun3{
+    width: 600px;
+    height: 600px;
+    position: inherit;
+    margin-inline-start: 6em;
+    margin-inline-end: 6em;
+    margin-block-start: 760px;
+    margin-block-end: 760px;
+    background-color: white;
+    border: 5px solid black;
+}
+
+.U-u1icerik1 .U-u1urun4{
+    width: 600px;
+    height: 600px;
+    position: inherit;
+    margin-inline-start: 6em;
+    margin-inline-end: 6em;
+    margin-block-start: 760px;
+    margin-block-end: 760px;
+    background-color: white;
+    right:0;
+    border: 5px solid black;
+}
+
+.U-u1icerik1 .U-u1Sekme1{
+    width: 180px;
+    height: 80px;
+    position: inherit;
+    margin-block-start: 456px;
+    margin-block-end: 456px;
+    margin-inline-start: -12em;
+    margin-inline-end: -13em;
+    background-color: white;
+    border-radius: 30px;
+    background-color:  rgb(231, 152, 5);
+    text-decoration: none;
+    
+}
+
+.U-u1icerik1 .U-u1Sekme1>h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 27px;
+    color:white;
+    font-size: 16px!important;
+}
+
+
+.U-u1icerik1 .U-u1Sekme1:hover>h3{
+    color: black;
+    
+}
+
+.U-u1icerik1 .U-u1Sekme1:hover{
+    box-shadow: 0 2px 16px 0 black;
+    
+    margin-inline-start: -15em;
+    margin-inline-end: -15em;
+    border-radius: 0px 20px 0px 20px;
+    transition: 0.3s;
+}
+
+/*urunler1.1html*/
+.U-u1icerik11{
+    width: 100%;
+    height: 11790px;
+    position: absolute;
+    margin-top: 216px;
+    background-color: black;
+}
+
+.U-u1icerik11 > img{
+    width: 80%;
+    margin-inline-start: 9em;
+    margin-inline-end: 9em;
+     margin-block-start: 50px;
+    margin-block-end: 50px;   
+}
+
+/*urunler1.1html alt kısım*/
+.anaalt4{
+    border:1px solid black;
+    position: absolute;
+    margin-top: 12000px;;
+    background-color: black;
+    width: 100%;
+    height: 270px;
+    background-color: darkolivegreen;
+
+}
+
+.anaaltlogo4{
+    position: absolute;
+    margin-top: 11990px;
+    margin-left: -50px;
+    
+}
+/*
+.masterlogo{
+    
+        position: absolute;
+        margin-top: 1845px;
+        margin-left: 45px;
+   
+}
+*/
+
+.anaaltadres4{
+    position: absolute;
+    margin-top: 12040px;
+    margin-left: 250px;
+    
+    
+}
+.anaaltadres4 h3,address{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    font-style: normal;
+}
+.anaaltadres4 h2{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.anaaltbulten4{
+    position: absolute;
+    margin-top: 12040px;
+    margin-left: 650px;
+}
+
+.anaaltbulten4 h2{
+    color: white;
+    text-align: center;
+}
+.anaaltbulten4 p{
+    color: white;
+}
+.anaaltbulten4 #email4{
+    border: 2px solid white;
+    width: 75%;
+    height: 25px;
+}
+
+#submit4{
+    border: 2px solid rgb(0, 151, 151);
+    padding-bottom: 6px;
+    padding-top: 4px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    background-color: rgb(0, 151, 151);
+}
+
+.anaalttakip4{
+    position: absolute;
+    margin-top: 12040px;
+    margin-left: 1050px;
+}
+.anaalttakip4 h2{
+    color: white;
+    text-align: center;
+}
+.anaalttakip4 p{
+    color: white;
+}
+.anaalttakip4 li{
+    display: inline;
+    list-style-type: none;
+    
+    margin-right: 20px;
+}
+
+.anaalttakip5 img{
+    
+    width: 30px;
+}
+
+/*urunler1.2.html*/
+.U-u1icerik12{
+    width: 100%;
+    height: 7240px;
+    position: absolute;
+    margin-top: 216px;
+    background-color: white;
+}
+.U-u1icerik12 > img{
+    width: 80%;
+    margin-inline-start: 9em;
+    margin-inline-end: 9em;
+    margin-block-start: 50px;
+    margin-block-end: 50px;    
+}
+/*urunler1.2html alt kısım*/
+.anaalt5{
+    border:1px solid black;
+    position: absolute;
+    margin-top: 7400px;;
+    background-color: black;
+    width: 100%;
+    height: 270px;
+    background-color: darkolivegreen;
+
+}
+
+.anaaltlogo5{
+    position: absolute;
+    margin-top: 7390px;
+    margin-left: -50px;
+    
+}
+/*
+.masterlogo{
+    
+        position: absolute;
+        margin-top: 1845px;
+        margin-left: 45px;
+   
+}
+*/
+
+.anaaltadres5{
+    position: absolute;
+    margin-top: 7440px;
+    margin-left: 250px;
+    
+    
+}
+.anaaltadres5 h3,address{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    font-style: normal;
+}
+.anaaltadres5 h2{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.anaaltbulten5{
+    position: absolute;
+    margin-top: 7440px;
+    margin-left: 650px;
+}
+
+.anaaltbulten5 h2{
+    color: white;
+    text-align: center;
+}
+.anaaltbulten5 p{
+    color: white;
+}
+.anaaltbulten5 #email5{
+    border: 2px solid white;
+    width: 75%;
+    height: 25px;
+}
+
+#submit5{
+    border: 2px solid rgb(0, 151, 151);
+    padding-bottom: 6px;
+    padding-top: 4px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    background-color: rgb(0, 151, 151);
+}
+
+.anaalttakip5{
+    position: absolute;
+    margin-top: 7440px;
+    margin-left: 1050px;
+}
+.anaalttakip5 h2{
+    color: white;
+    text-align: center;
+}
+.anaalttakip5 p{
+    color: white;
+}
+.anaalttakip5 li{
+    display: inline;
+    list-style-type: none;
+    
+    margin-right: 20px;
+}
+
+.anaalttakip5 img{
+    
+    width: 30px;
+}
+
+/*urunler1.3.html*/
+.U-u1icerik13{
+    width: 100%;
+    height: 7240px;
+    position: absolute;
+    margin-top: 216px;
+    background-color: white;
+}
+.U-u1icerik13 > img{
+    width: 80%;
+    margin-inline-start: 9em;
+    margin-inline-end: 9em;
+    margin-block-start: 50px;
+    margin-block-end: 50px;    
+}
+
+/*urunler1.4.html*/
+.U-u1icerik14{
+    width: 100%;
+    height: 4340px;
+    position: absolute;
+    margin-top: 216px;
+    background-color: white;
+}
+.U-u1icerik14 > img{
+    width: 70%;
+    margin-inline-start: 15em;
+    margin-inline-end: 15em;
+    margin-block-start: 50px;
+    margin-block-end: 50px;    
+}
+/*urunler1.4html alt kısım*/
+.anaalt6{
+    border:1px solid black;
+    position: absolute;
+    margin-top: 4300px;;
+    background-color: black;
+    width: 100%;
+    height: 270px;
+    background-color: darkolivegreen;
+
+}
+
+.anaaltlogo6{
+    position: absolute;
+    margin-top: 4290px;
+    margin-left: -50px;
+    
+}
+/*
+.masterlogo{
+    
+        position: absolute;
+        margin-top: 1845px;
+        margin-left: 45px;
+   
+}
+*/
+
+.anaaltadres6{
+    position: absolute;
+    margin-top: 4340px;
+    margin-left: 250px;
+    
+    
+}
+.anaaltadres6 h3,address{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    font-style: normal;
+}
+.anaaltadres6 h2{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.anaaltbulten6{
+    position: absolute;
+    margin-top: 4340px;
+    margin-left: 650px;
+}
+
+.anaaltbulten6 h2{
+    color: white;
+    text-align: center;
+}
+.anaaltbulten6 p{
+    color: white;
+}
+.anaaltbulten5 #email6{
+    border: 2px solid white;
+    width: 75%;
+    height: 25px;
+}
+
+#submit6{
+    border: 2px solid rgb(0, 151, 151);
+    padding-bottom: 6px;
+    padding-top: 4px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    background-color: rgb(0, 151, 151);
+}
+
+.anaalttakip6{
+    position: absolute;
+    margin-top: 4340px;
+    margin-left: 1050px;
+}
+.anaalttakip5 h2{
+    color: white;
+    text-align: center;
+}
+.anaalttakip6 p{
+    color: white;
+}
+.anaalttakip6 li{
+    display: inline;
+    list-style-type: none;
+    
+    margin-right: 20px;
+}
+
+.anaalttakip6 img{
+    
+    width: 30px;
+}
+
+/*urunler2.html*/
+ .U-u2icerik1{   
+    width: 100%;
+    height: 1480px;
+    position: absolute;
+    margin-top: 216px;
+    background-color: white;
+}
+
+.U-u2icerik1 .U-u2urun1{
+    width: 600px;
+    height: 600px;
+    position: inherit;
+    background-color: gray;
+    margin-inline-start: 6em;
+    margin-inline-end: 6em;
+    margin-block-start: 80px;
+    margin-block-end: 70px;
+    background-color: white;
+    border: 5px solid black;
+}
+
+.U-u2icerik1 .U-u2urun2{
+    width: 600px;
+    height: 600px;
+    position: inherit;
+    margin-inline-start: 6em;
+    margin-inline-end: 6em;
+    margin-block-start: 80px;
+    margin-block-end: 70px;
+    
+    right: 0;
+    background-color: white;
+    border: 5px solid black;
+}
+
+.U-u2icerik1 .U-u2urun3{
+    width: 600px;
+    height: 600px;
+    position: inherit;
+    margin-inline-start: 6em;
+    margin-inline-end: 6em;
+    margin-block-start: 760px;
+    margin-block-end: 760px;
+    background-color: white;
+    border: 5px solid black;
+}
+
+.U-u2icerik1 .U-u2urun4{
+    width: 600px;
+    height: 600px;
+    position: inherit;
+    margin-inline-start: 6em;
+    margin-inline-end: 6em;
+    margin-block-start: 760px;
+    margin-block-end: 760px;
+    background-color: white;
+    right:0;
+    border: 5px solid black;
+}
+
+.U-u2icerik1 .U-u2Sekme1{
+    width: 180px;
+    height: 80px;
+    position: inherit;
+    margin-block-start: 456px;
+    margin-block-end: 456px;
+    margin-inline-start: -12em;
+    margin-inline-end: -13em;
+    background-color: white;
+    border-radius: 30px;
+    background-color:  rgb(231, 152, 5);
+    text-decoration: none;
+    
+}
+
+.U-u2icerik1 .U-u2Sekme1>h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 27px;
+    color:white;
+    font-size: 16px!important;
+}
+
+
+.U-u2icerik1 .U-u2Sekme1:hover>h3{
+    color: black;
+    
+}
+
+.U-u2icerik1 .U-u2Sekme1:hover{
+    box-shadow: 0 2px 16px 0 black;
+    
+    margin-inline-start: -15em;
+    margin-inline-end: -15em;
+    border-radius: 0px 20px 0px 20px;
+    transition: 0.3s;
+}
+/*urunler2.1.html*/
+.U-u2icerik21{
+    width: 100%;
+    height: 4800px;
+    position: absolute;
+    margin-top: 216px;
+    background-color: white;
+}
+
+.U-u2icerik21 > img{
+    width: 80%;
+    margin-inline-start: 9em;
+    margin-inline-end: 9em;
+     margin-block-start: 50px;
+    margin-block-end: 50px;   
+}
+/*urunler2.1 alt menü */
+.anaalt7{
+    border:1px solid black;
+    position: absolute;
+    margin-top: 4800px;
+    background-color: black;
+    width: 100%;
+    height: 270px;
+    background-color: darkolivegreen;
+
+}
+
+.anaaltlogo7{
+    position: absolute;
+    margin-top: 4790px;
+    margin-left: -50px;
+    
+}
+/*
+.masterlogo{
+    
+        position: absolute;
+        margin-top: 1845px;
+        margin-left: 45px;
+   
+}
+*/
+
+.anaaltadres7{
+    position: absolute;
+    margin-top: 4840px;
+    margin-left: 250px;
+    
+    
+}
+.anaaltadres7 h3,address{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    font-style: normal;
+}
+.anaaltadres7 h2{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.anaaltbulten7{
+    position: absolute;
+    margin-top: 4840px;
+    margin-left: 650px;
+}
+
+.anaaltbulten7 h2{
+    color: white;
+    text-align: center;
+}
+.anaaltbulten7 p{
+    color: white;
+}
+.anaaltbulten7 #email7{
+    border: 2px solid white;
+    width: 75%;
+    height: 25px;
+}
+
+#submit7{
+    border: 2px solid rgb(0, 151, 151);
+    padding-bottom: 6px;
+    padding-top: 4px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    background-color: rgb(0, 151, 151);
+}
+
+.anaalttakip7{
+    position: absolute;
+    margin-top: 4840px;
+    margin-left: 1050px;
+}
+.anaalttakip7 h2{
+    color: white;
+    text-align: center;
+}
+.anaalttakip7 p{
+    color: white;
+}
+.anaalttakip7 li{
+    display: inline;
+    list-style-type: none;
+    
+    margin-right: 20px;
+}
+
+.anaalttakip7 img{
+    
+    width: 30px;
+}
+
+/*urunler2.2.html*/
+.U-u2icerik22{
+    width: 100%;
+    height: 5200px;
+    position: absolute;
+    margin-top: 216px;
+    background-color: white;
+}
+
+.U-u2icerik22 > img{
+    width: 80%;
+    margin-inline-start: 9em;
+    margin-inline-end: 9em;
+     margin-block-start: 50px;
+    margin-block-end: 50px;   
+}
+/*urunler2.2 alt menü */
+.anaalt8{
+    border:1px solid black;
+    position: absolute;
+    margin-top: 5300px;
+    background-color: black;
+    width: 100%;
+    height: 270px;
+    background-color: darkolivegreen;
+
+}
+
+.anaaltlogo8{
+    position: absolute;
+    margin-top: 5290px;
+    margin-left: -50px;
+    
+}
+/*
+.masterlogo{
+    
+        position: absolute;
+        margin-top: 1845px;
+        margin-left: 45px;
+   
+}
+*/
+
+.anaaltadres8{
+    position: absolute;
+    margin-top: 5340px;
+    margin-left: 250px;
+    
+    
+}
+.anaaltadres8 h3,address{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    font-style: normal;
+}
+.anaaltadres8 h2{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.anaaltbulten8{
+    position: absolute;
+    margin-top: 5340px;
+    margin-left: 650px;
+}
+
+.anaaltbulten8 h2{
+    color: white;
+    text-align: center;
+}
+.anaaltbulten8 p{
+    color: white;
+}
+.anaaltbulten8 #email8{
+    border: 2px solid white;
+    width: 75%;
+    height: 25px;
+}
+
+#submit8{
+    border: 2px solid rgb(0, 151, 151);
+    padding-bottom: 6px;
+    padding-top: 4px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    background-color: rgb(0, 151, 151);
+}
+
+.anaalttakip8{
+    position: absolute;
+    margin-top: 5340px;
+    margin-left: 1050px;
+}
+.anaalttakip8 h2{
+    color: white;
+    text-align: center;
+}
+.anaalttakip8 p{
+    color: white;
+}
+.anaalttakip8 li{
+    display: inline;
+    list-style-type: none;
+    
+    margin-right: 20px;
+}
+
+.anaalttakip8 img{
+    
+    width: 30px;
+}
+/*urunler2.3.html*/
+.U-u2icerik23{
+    width: 100%;
+    height: 4200px;
+    position: absolute;
+    margin-top: 216px;
+    background-color: white;
+}
+
+.U-u2icerik23 > img{
+    width: 80%;
+    margin-inline-start: 9em;
+    margin-inline-end: 9em;
+     margin-block-start: 50px;
+    margin-block-end: 50px;   
+}
+/*urunler2.3.html anaalt6 yı kullanmaktadır*/
+
+/*urunler2.3.html*/
+.U-u2icerik24{
+    width: 100%;
+    height: 4200px;
+    position: absolute;
+    margin-top: 216px;
+    background-color: white;
+}
+
+.U-u2icerik24 > img{
+    width: 80%;
+    margin-inline-start: 9em;
+    margin-inline-end: 9em;
+     margin-block-start: 50px;
+    margin-block-end: 50px;   
+}
+/*urunler2.4.html anaalt6 yı kullanmaktadır*/
+
+/*iletisim.html*/
+.I1-Bar{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    margin-top: 76px;
+    background-color: #f3f3f3;
+}
+
+.I1-Bar p{
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: small;
+}
+
+.I2-Bar{
+    width: 100%;
+    background-color: black;
+    height: 90px;
+    position: absolute;
+    margin-top: 126px;
+    opacity: 0.8;
+}
+
+.I2-Bar h1{
+    color: black;
+    text-align: left;
+    margin-top: 31px;
+    margin-left: 50px;
+    font-size: x-large;
+
+}
+.I2-Bar>.U2-Radius{
+    width: 9.7%;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 20px;
+    border-radius: 15px;
+    z-index: -1;
+}
+
+.I-icerik1{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    margin-top: 216px;
+    background-color: none;
+}
+
+.I-icerik1 .I-sol1{
+    width: 50%;
+    position: inherit;
+    background-color: #f3f3f3;
+    height: inherit;
+}
+
+.I-icerik1 .I-sag1{
+    width: 50%;
+    position: inherit;
+    background-color: #f3f3f3;
+    height: inherit;
+    right: 0;
+}
+
+.I-icerik1 .I-sol1 h2{
+    color:#4D4D4D;
+    margin-inline-start: 8em;
+    margin-inline-end: 4em;
+    margin-block-start: 150px;
+    margin-block-end: 30px; 
+}
+
+.I-icerik1 .I-sol1 p{
+    color:rgb(27, 27, 27);
+    margin-inline-start: 10.8em;
+    margin-inline-end: 5.4em;
+    margin-block-start: 30px;
+    margin-block-end: 20px; 
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+.I-icerik1 .I-sol1 a{
+
+    margin-inline-start: 5.5em;
+    margin-inline-end: 0.4em;
+    font-size: 17px;
+    margin-block-start: 10px;
+    margin-block-start: 20px;
+}
+
+.I-icerik1 .I-sol1 i{
+    margin-inline-start: 4em;
+    margin-inline-end: -4em;
+    margin-block-start: 0px;
+    margin-block-end: 200px;
+}   
+.I-sag1 h2{
+    margin-inline-start: 5.4em;
+    margin-inline-end: 1em;
+    margin-block-start: 145px;
+    margin-block-end: 0px;
+    color: #4D4D4D;
+    font-size: 24px;
+}
+.I-sag1 .I-table1{
+    width: 100%;
+    margin-inline-start: 8em;
+    margin-inline-end: 8em;
+    margin-block-start: 10px;
+    margin-block-end: 150px;
+}
+
+.I-table1 td{
+    
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.I-table1 td:first-child{
+    color: darkolivegreen;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.I-icerik2{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    margin-top: 816px;
+    background-color: none;
+}
+
+.I-icerik2 .I-sol2{
+    position: inherit;
+    width: 50%;
+    height: inherit;
+    background-color: white;
+}
+
+.I-icerik2 .I-sag2{
+    position: inherit;
+    width: 50%;
+    height: inherit;
+    background-color: white;
+    right: 0;
+}
+
+.I-sol2 .iletisimSablon{
+    display: block;
+    width: 60%;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-inline-start: 13em;
+    margin-inline-end: 2em;
+    margin-block-start: 40px;
+    margin-block-end: 10px;
+    color: #4D4D4D;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0 8px 16px 0 rgb(207, 207, 207);
+}
+
+.I-sol2 #iletisimSablon1{
+    display: block;
+    width: 64.5%;
+    height: 150px;
+    color: #4D4D4D;
+    border-radius: 10px;
+    margin-inline-start: 12.4em;
+    margin-inline-end: 5em;
+    margin-block-start: 40px;
+    margin-block-end: 10px;
+    border: 1px solid #E5E5E5;  
+    font-size: 14px;
+    text-align: left;
+    resize: none;
+    box-shadow: 0 8px 16px 0 rgb(207, 207, 207);
+}
+.I-sol2 #iletisimSablon2{
+    display: block;
+    width: 20%;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-inline-start: 38.5em;
+    margin-inline-end: 1em;
+    margin-block-start: 20px;
+    margin-block-end: 10px;
+    color: white;
+    border: 1px solid #E5E5E5;
+    background-color: yellowgreen;
+    
+    
+}
+.I-sol2 .iletisimSablon:focus{
+    color: #4D4D4D;
+    outline: none;
+}
+
+.I-sol2 #iletisimSablon1:focus{
+    color: #4D4D4D;
+    outline: none;
+}
+.I-sol2 #iletisimSablon2:focus{
+   
+    color: #4D4D4D;
+    outline: none;
+}
+#iletisimSablon2:hover{
+    text-decoration: none;
+    background-color: darkolivegreen;
+    cursor:pointer;
+    border:none;
+    color: white;
+    text-decoration: none;
+}
+
+.I-sol2 h1{
+    margin-inline-start:5.5em;
+    margin-inline-end: 2em;
+    margin-top: 40px;
+    color:darkolivegreen;
+}
+
+.I-sag2 img{
+    width: 60%;
+    margin-inline-start: 11em;
+    margin-inline-end: 11em;
+    margin-block-start: 90px;
+    margin-block-end: 20px;
+    opacity: 0.1;
+}
+
+.ısp-color{
+    color: black;
+    margin-inline-start: 5em;
+    margin-inline-end: 5em;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+}
