@@ -1,0 +1,506 @@
+
+/*
+.basicmenu2{
+    border: 2px solid black;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    
+}
+
+.menu2{
+    list-style-type: none;
+    position: absolute;
+    top: 8px;
+    left: 900px;
+
+}
+.menu2>li{
+    display: inline;
+   
+}
+.menu2>li>a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-size: 22px;
+      
+   
+}
+.menu2>li>a:hover{
+    text-decoration:overline;
+    color: gray;
+  
+}
+body{
+    margin: 0;
+ 
+}
+.Marka1{
+    border:2px solid white;
+    border-right-color: black;
+    border-left-color: black;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: -8px;
+    left: 90px;
+}
+
+/*.logo2{
+    width: 5%;
+    height: 77px;
+    position: absolute;
+    top:-2px;
+    left: 0px;
+    
+}
+
+
+
+.image>img{
+    
+    margin-left: -5px;
+    position: absolute;
+    width: 104%;
+    z-index: -1;
+}
+
+*/
+/* ders-34
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 18%;
+    background-color: darkkhaki;
+    height: 100%;
+    position: fixed;
+}
+
+ul>li>a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+    font-size: 20px;
+    font-family:cursive;
+}
+
+ul li{
+    border-bottom: 1px solid #1F1D1D;
+}
+
+li> a.active{
+    background-color: #333;
+    color:white;
+}
+
+li>a:hover:not(.active){
+    background-color: #333;
+    color:white;
+}
+
+body{
+    margin:0;
+    background-color: crimson;
+}
+
+div{
+    margin-left: 20%;
+    padding: 2px 2px;
+    color:white;
+    text-indent: 40px;
+    direction: ltr;
+    
+}
+*/
+/*ders 35
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li{
+    float:left;
+    border-right: 1px solid #555;
+}
+li:last-child{
+    background-color: gray;
+    border-right: none;
+}
+ul>li>a{
+    color:white;
+    display: block;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+body{
+    margin:0;
+}
+
+li>a.active{
+    background-color: darkred;
+}
+
+li>a:hover:not(.active){
+    background-color: #111;
+}
+
+div{
+    padding: 20px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width:600px){
+    ul li{
+        float:none;
+    }
+}
+*/
+/*ders36
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    background-color: #333;
+    position: fixed;
+     width: 100%;
+}
+
+li{
+    float:left;
+    border-right: 1px solid #555;
+}
+
+li a, .dp-Btn{
+    color:white;
+    display: block;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+body{
+    margin:0;
+}
+
+li a.active{
+    background-color: darkred;
+}
+
+li a:hover, .dropdown:hover .dp-Btn{
+    background-color: #111;
+}
+
+
+
+.dp-Content{
+    display: none;
+    position: absolute;
+    background-color: #333;
+    z-index: 1;
+    box-shadow: 0 8px 16px 0 yellow;
+    padding: 0;
+}
+
+.dropdown:hover .dp-Content{
+    display: block;
+}
+
+.dp-Content a{
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block; /* menümüzün yatay veya dikey olacağını buradan da ayarlayabiliriz 
+.dp-Content a:hover{
+    background-color: darkred;
+}
+
+*/
+/*ders36 uygulama1 
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: crimson;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li{
+    float: left;
+    border-right: 1px solid #333;
+}
+
+li a, .dp-Btn{
+    color: white;
+    padding: 18px 18px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: cursive;
+}
+a.active{
+    background-color: #333;
+}
+li a:hover:not(.active){
+    background-color: #333;
+}
+
+.dp-Content{
+    display: none;
+    position: absolute;
+    background-color: #333;
+    z-index: 1;
+    box-shadow: 0 8px 16px 0 yellow;
+    width: 11%;
+}
+
+.dropdown:hover .dp-Content{
+    display: block;
+}
+
+.dp-Content a{
+    background-color: #333;
+    display: block;
+  }
+  .dp-Content a:hover{
+    background-color: crimson;
+    /* bunun olmamasının sebebi 258.satırda olan not kodunun yer alması onu kaldırınca bu kod aktif olacaktır. 
+  }
+ */   
+
+/*lesson38
+bu metinlere uygulanan dropdown örneğidir.
+.dropdown{
+    position: relative;
+    width:100%;
+    display: inline-block;
+}
+
+.content{
+    position: absolute;
+    z-index: 1;
+    background-color: #f8f8f8;
+    width: 60%;
+    border: 1px solid #f7f7f7;
+    box-shadow: 0 8px 16px 0 #999;
+    display: none;
+}
+
+.dropdown:hover .content{
+    display:block;
+}
+
+alttaki kodlarımız ise yukarıdakinin aynısıdır sadece resim için dropdown uygulama konusunda tekrardan yazılmıştır.
+.dropdown{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+.content{
+    position: absolute;
+    z-index: 1;
+    background-color: #f8f8f8;
+    border: 1px solid #f7f7f7;
+    box-shadow: 0 8px 16px 0 #999;
+    display: none;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+*/
+/*lesson38
+.tooltip{
+    position:relative;
+    margin-left: 40%;
+    margin-top: 20%;
+    display: inline-block;
+    width: 100%;
+}
+
+input{
+    border:2px solid #ddd;
+    padding: 9px;
+    width: 14px 60px;
+}
+
+.tp-text{
+    background-color: #D80408;
+    padding: 9px 60px;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 1;
+    visibility: hidden;
+    top: 150%;
+    right: 88%;
+    color:white;
+    box-shadow: 0 6px 16px 0 yellow;
+}
+
+.tooltip:hover .tp-text{
+    visibility: visible;
+}
+
+.tp-text::after{
+    content: "";
+    position: absolute;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent #D80408 transparent;
+    bottom: 100%;
+}
+*/
+
+/*lesson39
+
+.gallery{
+    margin: 10px;
+    border: 1px solid #bbb;
+    float: left;
+    width: 250px;
+    height: 300px;
+}
+
+.desc{
+    padding: 15px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.gallery img{
+    width: 100%;
+}
+
+.gallery:hover{
+    border: 1px solid #ccc;
+    box-shadow: 0 8px 16px 0 rgba(207, 1, 1, 0.514);
+    transition: 0.5s;
+    
+}
+
+
+a[target="_blank"]{
+    padding: 10px;
+    background-color: darkolivegreen;
+    color: white;
+    text-decoration: none;
+}
+
+a[title~="fehmiuyarnet"]{
+    padding: 10px;
+    background-color: darkolivegreen;
+    color: white;
+    text-decoration: none;
+}
+a[target]{
+    padding: 10px;
+    background-color: darkolivegreen;
+    color: white;
+    text-decoration: none;
+}
+
+
+[class |= "header"]{
+    padding: 10px;
+    background-color: darkolivegreen;
+    color: white;
+    text-decoration: none;
+}
+
+
+[class ^= "header"]{
+    padding: 10px;
+    background-color: darkolivegreen;
+    color: white;
+    text-decoration: none;
+}
+[class *= "header"]{
+    padding: 10px;
+    background-color: darkolivegreen;
+    color: white;
+    text-decoration: none;
+}
+*/
+
+/*lesson40
+
+.frm-group{
+    background-color: darkolivegreen;
+    padding: 10px;
+    width: 50%;
+    border-radius: 4px;
+}
+
+label{
+    display: block;
+    padding: 3px 3px;
+    color: white;
+    
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    border: 1px solid #000;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button[type="button"]{
+    width: 100%;
+    background-color: #111;
+    color: #fff;
+    padding: 10px 0;
+    margin: 10px 0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="button"]:hover{
+    background-color: #222;
+}
+
+input[type="text"]:focus{
+    box-shadow: 1px 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+select{
+    width: 100%;
+    padding: 10px 0;
+    margin: 8px 0;
+    border:none;
+    border-radius: 3px;
+
+}
+
+textarea{
+    width:100%;
+    height: 140px;
+    color:#555;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    border: 1px solid #111;
+    font-size: 16px;
+    background-color: orange;
+    resize: none;
+}
+
+*/

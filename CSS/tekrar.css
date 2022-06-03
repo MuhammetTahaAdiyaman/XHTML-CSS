@@ -1,0 +1,958 @@
+/*h3{
+    color: blue;
+    font-size: medium;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+*/
+/*
+h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+p{
+    line-height: 180%;
+    text-indent:20px;
+}
+*/
+/*
+body{
+    /*background-color: crimson;
+    color: white;
+    background-image: url(../image/gker\ \(2\).JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
+*/
+
+#Mor{
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#Mavi{
+    color: blue
+}
+.Sarı{
+    color:yellow
+}
+#pembe{
+    color:pink
+}
+
+
+.change{
+    border: 2px solid black;
+    background-color: darkolivegreen;
+    margin-bottom: 50px;
+    /*margin : 50px;
+    margin-top:40px; .etc */
+
+}
+
+#second{
+    border: 2px solid black;
+    background-color: darksalmon;
+    padding: 50px;
+    /*padding : 50px;
+    padding-top:40px; .etc */
+}
+
+.link a{
+    color: red;
+    text-decoration: none;
+}
+
+.link a:hover{
+    color:green;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.link a:active{
+    color:blue;
+    background-color:yellow;
+    text-decoration: none;
+}
+
+h2.center{
+    color: red;
+    text-align: center;
+}
+
+p.center{
+    color:darkolivegreen;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+h1.center{
+    color:purple;
+    font-style: italic;
+}
+
+.table-style{
+    border: 2px solid #666;
+    margin: 15px;
+}
+
+.table-style th,td{
+    /*border: 2px solid #666;*/
+    padding: 10px
+}
+
+.table-style th{
+    background-color: crimson;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.table-style tr{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table-style td{
+    font-style: italic;
+}
+
+/*.background{
+
+    background-color:crimson;
+    padding: 20px;
+    width: 100%;
+    height: 1000px;
+    color:black;
+    background-image: url(../image/batman-logo-11530959634fovhjqquqe.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center;
+
+    background-attachment:fixed;
+}
+
+.background2{
+    background-color: darkolivegreen;
+    padding: 20px;
+    width:100%;
+    height:500px;
+    background-size: 30%;
+    background-image:url(../image/ultra-hd-4k-manzara-resimleri.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+*/
+
+.background{
+    background-color: crimson;
+    margin:20px;
+    padding:40px;
+    width: 100%;
+    height: 100px;
+    text-align:left center;
+    color:white;
+
+    background-image: url(../image/230hbgekwh14k35.jpg);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+
+
+/*.background{
+    background: #FFF url(../img/230hbgekwh14k35.jpg) no-repeat rigth bottom fixed;
+}
+şeklinde de yukarıda background: takılarını alt alta değil yan yana da yazabiliriz.
+*/
+
+p{
+    padding: 10px;
+    border-width: 4px;
+}
+
+.border-dashed{
+    border-style: dashed;
+   
+}
+
+.border-dotted{
+    border-style: dotted;
+}
+
+.border-none{
+    border-style: none;
+}
+
+.border-hidden{
+    border-style: hidden;
+}
+
+.border-solid{
+    border-style: solid;
+}
+
+.border-groove{
+    border-style: groove;
+}
+
+.border-inset{
+    border-style: inset;
+}
+
+.border-outset{
+    border-style: outset;
+}
+
+.border-ridge{
+    border-style: ridge;
+}
+
+.border-mix{
+    border-top-style: dashed;
+    border-right-style: solid;
+    border-bottom-style: double;
+    border-left-style: ridge;
+}
+
+.border-mix2{
+    border-style: dashed double dotted outset; /*border-mix'in yan yana yazılmış hali sistem üst-sağ-alt-sol şeklinde bir döngü ile hareket etmektedir. bu mantık tüm css kodlarında geçerli olmaktadır.*/
+}
+
+.style-border{
+
+    border-style: solid;
+    padding: 10px;
+
+    border-top-width: 2px;
+    border-right-width: 4px;
+    border-bottom-width: 6px;
+    border-left-width: 8px;
+
+    /*border-width: 2px 4px 6px 8px; şeklinde tek bir satırda da yazabiliriz böyle yazmamız hem profesyonel şekilde hem de css mantığını yani üst-sağ-alt-sol şeklini kavrayabilmek*/
+
+    border-top-color: red;
+    border-right-color: rosybrown;
+    border-bottom-color: blue;
+    border-left-color:skyblue;
+
+    /*border-color: red rosybrown blue skyblue; şeklinde yukarıda alt alta her kenara renk atayacağımıza bu şekilde tek satırda da yazabiliriz bu şekilde yazmamızın amacı hem prfesyonellik hem de css mantığını üst-sağ-alt-sol mantığını kavrayabilmektir.*/
+}
+
+.style-border2{
+
+    padding: 15px;
+    
+      border-width: 5px;
+      border-style: solid;
+      border-color: #C97;
+    /*border: 5px solid #c97
+    bu kod 249-251 arası satırda yazılmış kodlar ile aynı anlamda kullanılmaktadır. */
+    /*border-top-left-radius: 10px ;
+    border-bottom-right-radius: 10px;
+    yazılan kodlar ile border-radius: 10px 0px 10px 0px; kodları aynı anlamdadır.*/
+    border-radius: 10px 0px 10px 0px;
+    
+}
+
+.special{
+
+    border:2px solid #666;
+    padding: 20px;
+    margin:auto; /*bunu yapmamızın sebebi tablet, telefon veya bilgisayara göre margini statik olarak ayarlayacaktır */
+    width: 70%;
+}
+
+.special2{
+    border: 3px solid #000;
+    padding: 15px;
+    margin: 40px;
+    width: 80%;
+}
+
+.sub-special{
+    border:inherit; 
+    padding:inherit;
+    width:inherit;
+    margin:inherit;
+}
+
+/*special: parents, sub-special: chid. miras mantığı şu şekildedir. her zaman çocuk ebebevn'den miras alır. yani special de ben border: 3px solid #000 yaptıysam ve sub-special de ben border:inherit olarak aldıysam bu şu demektir special de bulunan border özelliğini kopyala sub-special de bulunan border'a yapıştır aynısını orada da yap. special de değişiklik yaptığımda örneğin solid yerine dashed yazdıysam sub-special de de bu değişiklik olacaktır. */
+
+.important{
+    border: 2px solid black;
+    margin: 40px;
+    padding:10px;
+    
+}
+
+.width-height{
+    border:2px solid #333;
+    margin:10px;
+    max-width: 600px;
+    min-width: 100px;
+    max-height: 150px;
+    min-height: 100px;
+}
+
+
+.outline-layer{
+    font-weight: bold;
+    color: darkblue;
+    background-image: url(../image/230hbgekwh14k35.jpg);
+    background-size: 20%;
+    background-position: center;
+    background-color:olivedrab;
+    
+    border: 6px double;
+    border-top-color: purple;
+    border-right-color: blue;
+    border-bottom-color: pink;
+    border-left-color: red;
+    border-radius: 15px 0px 15px 0px;
+    margin: 20px;
+    padding:15px;
+    width: 70%;
+
+    outline-style:double;
+    outline-width: 6px;
+    outline-color: orange;
+
+}
+
+.special-text{
+
+    color: darkblue;
+    text-align: justify;
+}
+
+h2.titlee{
+
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.link3 a{
+    
+    color:red;
+    text-decoration: none;
+}
+
+.link3 a:hover{
+    color:yellow;
+    text-decoration: underline;
+
+}
+
+.link3 a:active{
+
+    color:green;
+    text-decoration: overline;
+
+}
+/*lesson 19 */
+.titlee2{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    /*direction: rtl;
+    rtl: righ to left : sağa yasla anlamındadır - yön
+    ltr: left to right: sola yasla anlamındadır - yön */
+    /*word-spacing: 1em; kelimeler arasında boşluğu ayarlamak için */
+    /*text-shadow: 10px 16px 3px #C97;
+    fontumuzu gölgelendirmek için kullandığımzı koddur. 1.satır: yatay yönde hareketini sağlar yani gölgenin sağa gitmesini sağlar.
+    2.satır: düşey yönde hareketini sağlar yani gölgenin alta doğru gitmesini sağlar.
+    3.satır: gölgenin blur ayarını yapmamızı sağlar.
+    4.satır ise gölgenin rengini ayarlamamızı sağlar.
+    */
+
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:x-large;
+    font-weight:bold;
+    font-style: italic;
+    font-variant:small-caps;
+}
+
+.special-font{
+    color:rgb(136, 81, 81);
+    line-height: 25px;
+}
+/*lesson 20 */
+.titlee3{
+    text-align: center;
+    font-size: xx-large;
+    text-transform: capitalize;
+
+}
+.sp-color{
+    color:crimson;
+}
+
+/*lesson 21 */
+
+.md-18{
+    font-size: 18px !important;
+}
+
+.md-24{
+    font-size: 24px !important;
+}
+
+.md-48{
+    font-size: 48px !important;
+}
+
+.md-64{
+    font-size: 64px !important;
+}
+
+.md-inactive{
+    color:crimson !important;
+}
+
+.baslik7{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.googlelink a:link{
+    color:black;
+    text-decoration:none;
+}
+
+.googlelink a:hover{
+    color:aqua;
+    text-decoration: underline;
+}
+
+.googlelink a:active{
+    color:green;
+    text-decoration:line-through;
+}
+
+.googlelink a:visited{
+    color:orange;
+}
+
+.yandexlink a:link{
+    color:black;
+    text-decoration: none;
+    /*background-color: #89600c; eğer sadece arka plan rengini değiştirmek istersek aşağıda bulunan border kodunu sil direk bunu oku*/
+    border:2px solid #89600C;
+    border-radius:10px;
+    padding:10px;
+}
+
+.yandexlink a:hover{
+    color:white;
+    text-decoration: none;
+    background-color:#89600c;
+}
+
+.style-list-ul{
+    /*
+    list-style-type: square;
+    list-style-position: outside;
+    */
+    list-style: square outside;
+    background: aqua;
+    margin:20px;
+}
+
+.style-list-ol{
+    /*
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    */
+    list-style: upper-latin inside;
+    background: yellow;
+    margin:20px;
+
+}
+
+.style-list-ul li:first-letter{
+    color:red;
+    font-weight: bold;
+}
+
+.style-list-ol li:first-letter{
+    color:orange;
+    font-weight: bold;
+}
+
+.style-list-ul li{
+    margin:20px;
+    background-color: orange;
+    
+}
+.style-list-ol li{
+   
+    background-color: green;
+    margin:20px;
+}
+.sub-style-list-ol{
+    list-style-position: inside;
+}
+
+/*.special-table2 table,th,td{
+    border:2px solid #333;  
+}
+*/
+.special-table2{
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.special-table2 td,th{
+    height: 40px;
+    /*padding: 10px */
+    text-align: center;
+
+}
+
+.special-table2 tr{
+    vertical-align: middle;
+    border-bottom: 2px solid #ddd;
+}
+
+/*.special-table2 tr:hover{
+    background-color: #f1f1f1;
+}*/
+.special-table2 th{
+    background-color: crimson;
+    color:white;
+}
+
+/*.special-table2 tr:nth-child(even){
+    background-color: #f1f1f1;
+}*/
+
+.special-table2 tr:nth-child(odd){
+    background-color: #f1f1f1;
+}
+
+.special-table4 th{
+    background-color: crimson;
+    
+}
+.special-table4{
+    border-collapse: collapse;
+}
+
+.special-table4 tr{
+    border-bottom: 2px solid #f1f1f1;
+}
+
+.special-table4 tr:hover{
+    background-color: gray;
+}
+
+span{
+    border:2px solid red;
+    margin:10px;
+    display:inline;
+}
+
+.block{
+    border:2px solid orange;
+    margin:10px;
+    display: block;
+}
+
+.BasicMenu{
+
+    list-style-type: none;
+    direction: rtl;
+}
+
+.BasicMenu li{
+    display:inline; /*menümüzü yan yana hale getirelim .BasicMenu class'ı içinde yer alan listeler git anlamındadır */
+}
+
+.BasicMenu li a{
+    text-decoration: none; /*menümüzü yan yana hale getirelim .BasicMenu class'ı içinde yer alan listelere ait olan a taglerine git anlamındadır. */
+    color:darkred;
+    font-size: 24px;
+    margin: 10px;
+}
+
+/*not: normalde biz yukarıda .BasicMenu class i ile çalışıyoruz.
+eğer biz bir class ile çalışmasaydık normal olarak ul li şeklinde yazmış olsaydık eğer;
+
+ul etiketine ulaşmak için ul{}
+ul 'nin altında li'ye ulaşmak için ul>li{}
+ul'nin altında li'ye ulaş ve li'nin altında olan a tagine ulaşmak için ul>li>a{}
+şeklinde yaparız
+*/
+.BasicMenu>li>a:hover{
+    text-decoration: underline;
+    color:yellow;
+}
+/*
+şimdi yeni farkettim burada da geçerli oluyormuş bu ">" işareti olan kural.
+burada basit bir menü yapımını görmüş olduk. şimdi aşağıda display:none ve visibility özelliğini göstermeye.
+*/
+
+
+.display{
+    display: none; /*bunu kullandığımızda nesneyi tamamen kaldır. hem görünürlüğünü hem nesneyi kaldır anlamındadır. */
+}
+
+.visibility{
+    visibility: hidden; /*bunu kullandığımızda nesnenin sadece görünürlüğünü gizle, nesneyi ortadan kaldırma sadece nesneyi gizle, nesnenin oldğu yer boş kalsın anlamındadır. */
+}
+
+/* lesson 24-25 */
+
+.main {
+
+    border: 2px solid #333;
+    width: 70%;
+    height: 350px;
+    margin:5px;
+    background-color:peru;
+}
+
+.main >.box{
+    border: 2px solid red;
+    width: 200px;
+    height: 200px;
+    margin:30px;
+    padding:15px;
+    float:left;
+    background-color: white;
+    position: relative;
+    top:30px;
+    left: 350px;
+    z-index:3;
+}
+
+.main > .box2{
+    border: 2px solid red;
+    width: 200px;
+    height: 200px;
+    margin:30px;
+    padding:15px;
+    float:left;
+    background-color:white;
+    position: absolute;
+    top:12800;
+    left: 550px;
+    z-index: 2;
+    /* 
+      position:absolute;
+      position:relative;
+      top: 20px;
+      left:550px;
+    */
+}
+
+.main >.box3 {
+    border: 2px solid red;
+    width: 200px;
+    height: 200px;
+    margin:30px;
+    padding:15px;
+    float:left;
+    background-color: white;
+    position: relative;
+    top:20px;
+    left: 370px;
+    z-index: 1;
+}
+
+.basicmenu2{
+    border: 2px solid black;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    z-index:-1;
+}
+
+.menu2{
+    list-style-type: none;
+}
+.menu2>li{
+    display: inline;
+    
+
+}
+.menu2>li>a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-size: 22px;
+    position: relative;
+    left:950px;
+}
+.menu2>li>a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+body{
+    margin: 0;
+}
+.Marka1{
+    
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 13915px;
+    left: 30px;
+}
+
+.special-over{
+    width: 100%;
+    height: 100px;
+    border: 2px dashed red;
+    background-color: #D1C5C5;
+    /*overflow: visible; default değeridir. */
+    /*overflow: hidden; çerçeveden taşan kısımları gizlemeye yarar */
+    /*overflow: scroll; çerçevenin yanında ve alt kısmında scroll çubuğu oluşturmayı sağlar */
+    /*overflow: auto; sadece çerçevenin yan tarafında croll çubuğu oluşturmayı sağlar */
+
+}
+/*
+.mainBox1{
+    width: 70%;
+    height: 400px;
+    background-color: olive;
+    padding:10px;
+    
+}
+
+.smallBoxs1{                            sadece float:left örneği için
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid #000;
+    margin:10px;
+    float:left;
+    
+}
+
+/*
+.mainBox2{
+    width: 70%;
+    height: 400px;
+    background-color: olive;
+    padding:10px;
+    
+}
+.smallBoxs2{
+    width: 100px;
+    height: 100px;                      float:left için bir kutu, float:right için bir kutu örneği.
+    background-color: white;
+    border: 2px solid #000;
+    margin:10px;
+   float:left;
+}
+.smallBoxs3{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid #000;
+    margin:10px;
+    float:right;
+    
+}
+*/
+
+.logo4{
+    width: 80px;
+    float:right;                    /*img eklenirse orada float:rigt,left nasıl kullanılıyor buna örnek*/
+    margin:0 0 5px 5px;
+}
+.main5{
+    border:2px solid black;
+}
+
+.smallBoxs4{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid #000;
+    margin: 10px;
+    /*float: left;*/
+    display: inline-block; /*display blocku burada kullandık çünkü burada amaç kutuları yan yana sırala ve alta geç anlamında kullandık */
+}
+.textBox2{
+    border: 2px solid #f00;
+   /* clear: left;*/
+}
+
+/* ***** lesson -28 ***** */
+
+/*.div{
+    background-color: darksalmon;   class'ı div olan tüm parağraflara etki eder
+    padding: 10px;
+}
+*/
+
+
+
+/*.div1 .div{
+    background-color: darksalmon;     classı div1 adında olan div içindeki classı div olan parağraflara etki eder bir nevi div içinde yer alan parağraflara etki eder
+    padding: 10px;                             div p {} class atanmamış halidir.
+}
+
+gösterim yöntem2
+   .div1 > .div{
+       background-color: darksalmon;        yukarıdaki kodun aynı anlamda > ile gösterilmiş halidir ikiside kullanılır.
+       padding: 10px;                           div>p{} class atanmamış halidir.
+   }    
+*/
+
+/*.div1 + .div{
+    background-color: darksalmon;   bunun anlamıda classı .div1 olan div etiketinden hemen sonraki ilk classı div olan parağrafa etki et anlamındandır.
+    padding: 10px;                  bir nevi; division'dan sonra gelen ilk parağrafa etki et anlamı taşımaktadır.
+}                                           div+p{} class atanmamış halidir.
+*/
+
+/*.div1 ~ .div{
+    background-color: darksalmon;   bunun anlamıda classı çdiv1 olan div etiketinden sonra gelen classı div olan tüm parağraflara etki et anlamındadır.
+    padding: 10px;                    bir nevi divisiondan sonraki tüm parağraflara etki et anlamı taşımaktadır.
+}                                            div~p{} class atanmamış halidir.           
+*/
+
+.special-link:link{
+    color: red;
+    text-decoration: none;
+}
+
+.special-link:visited{
+    color: black;
+}
+
+.special-link:hover{
+    color:blueviolet;
+}
+
+.special-link:active{
+    color: orange;
+}
+
+.pseudo{
+    background-color: darkgoldenrod;
+    padding:10px;
+    width:40%;
+}
+
+.pseudo:hover{
+    background-color: #333;
+    color:white;
+}
+
+.writer{
+    background-color: darkgoldenrod;
+    padding:10px;
+    width:7%;
+    /*visibility: hidden;*/
+    display: none;
+}
+.pseudo2{
+    border:2px solid blueviolet;
+}
+.pseudo2:hover p{
+    /*visibility: visible;*/
+    display: block;
+}
+
+
+#username{
+    border: 2px solid #ddd;
+    padding: 10px;
+    width: 20%;
+}
+
+#username:focus{
+    background-color: #333;
+    color: antiquewhite;
+    border: 2px solid #000;
+}
+
+.div6:first-child{
+    background-color:yellow; /* çalışmadı yukarıda bir ton kodlar var ondan dolayı çalışmadı */ 
+}
+
+li:first-child b{
+    color:red;
+}
+
+
+
+p:lang(fr){
+    color:blueviolet;
+    background-color: orange;
+}
+
+p:lang(en){
+    color: orange;
+    background-color: blueviolet;
+}
+
+p:lang(tr){
+    color:white;
+    background-color: red;
+}
+/*
+input[type="email"]:disabled{
+    background-color: darkgoldenrod;
+    padding: 10px;
+    color: white;
+    width: 20%;
+}
+
+input[type="text"]:enabled{
+    background-color: darkgoldenrod;
+    padding: 10px;
+    color: white;
+    width: 20%;
+}
+*/
+/*
+#username:enabled{
+    background-color: darkgoldenrod;
+    padding: 10px;
+    color: white;
+    width: 20%;
+}
+#eposta:disabled{
+    background-color: darkgoldenrod;
+    padding: 10px;
+    color: white;
+    width: 20%;
+}
+*/
+input[type="email"]:invalid{
+    border:2px solid red;
+    padding:10px;
+    width: 20%;
+}
+/*
+.special-font3::first-line{
+    color:red;
+    text-transform:capitalize;
+}
+
+p::first-line{
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    background-color: pink;
+    text-decoration: underline;
+}
+*/
+
+.special-font3::first-letter{
+    color:white;
+    border: 2px solid red;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #000;
+    padding:3px;
+    
+}

@@ -1,0 +1,106 @@
+/*şimdi burada ise biz 'head' taginde bir kaç satırlık css kodlarını bir kaç satırdan daha fazla yazabilmek için burayı oluşturduk*/
+/*Lesson 8 | Css giriş 
+h4{
+    color:blueviolet;
+    border:2px solid chocolate;
+    background-color:darkred;
+}
+/*şimdi burada oluşturduğumuz bu dosyayı lesson2.html sayfasında nasıl kullanacağız oraya gidelim ve orada anlatalım.*/
+/* lesson2.html sayfasının 44.kodundan geliyorum aşağıda sayfada bulunan tüm parağrafları italic ve kalın olacak şekilde css kodlarımızı düzenleyelim 
+p{
+    font-style: italic;
+    font-weight: bold;
+    /*font-family ile yazımızın font'unu değiştirebiliyoruz*/
+    /*font-family ile yazımızın büyüklüğünü değiştirebiliyoruz
+    }
+    */
+/* ************************************************************************************** */
+
+/*Lesson 9 | Elementlere id ve class ile ulaşmak 
+
+h2{ /*h2-başlık için lesson2.html satır: 63-64 
+    text-align: center;
+}
+
+p{ /*parağraf için lesson2.html satır: 66-68 
+    line-height: 180%;
+    /* text-indent: 20px; satır başı ayarlamak için 
+}
+
+body{
+    
+    /*background-color: darkred;
+    color:white; */ /*lesson2.html, satır: 73-74*/
+    
+    /*background-image: url(../image/ultra-hd-4k-manzara-resimleri.jpg);  lesson2.html, satır: 77
+    background-repeat: no-repeat; /* lesson2.html, satır: 78*/
+    /* background-repeat: repeat-x; *//*bu kod ise sadece x(yatay) düzleminde resmin tekrarlanmasını sağlayabiliyor*//* lesson2.html, satır: 78*/
+    /* background-repeat: repeat-y; *//*bu kod ise sadece y(dikey) düzleminde resmin tekrarlanmasını sağlayabiliyor*//* lesson2.html, satır: 78
+
+    background-position: center;  /*lesson2.html, satır: 79
+
+    opacity: 100%; /* lesson2.html, satır: 81*/
+
+    /* background-position: 50% 5%;  lesson2.html, satır: 83
+
+}
+
+#kirmizi{ /*lesson2.html, satır: 88-89
+    color:red; 
+}
+
+#yeşil{ /*lesson2.html, satır: 91-95
+    color: green;
+}
+
+.turuncu{ /*lesson2.html, satır: 91-95-98
+    color: orange;
+}
+*/
+/* ************************************************************************************** */
+
+/*Lesson 10 | padding, margin kullanımı ve linklere css uygulama
+.change{  /*lesson2.html, satır: 114, class kullandık
+    border: 2px solid black ;
+    background-color: darkolivegreen;
+    margin-bottom: 40px ; /*lesson2.html, satır: 134, dış çerçeve-alttan 40px boşluk oluşturmak için kullandık
+    margin-top: 30px; /*lesson2.html, satır: 134, dış çerçeve-üstten 30px boşluk oluşturmak için kullandık*/
+    /*margin-left(soldan dış boşluk), margin-right(sağdan dış boşluk) oluşturmak için kullanabiliriz*/
+    /*margin: 40px demek 4 taraftanda 40 px lik boşluk bırak anlamına gelmektedir 
+    
+}
+
+#second{/*lesson2.html, satır: 114, id kullandık
+    border: 2px solid black;
+    background-color: darksalmon;
+    /*padding: 20px; /*lesson2.html, satır: 135, iç çerçeve-4 tarafındanda bu div vision nesnesinin içersine olan element ile arasına 20px alan bırakalım için kullandık
+    padding-bottom: 40px;/*lesson2.html, satır: 135, iç çerçeve-alttan 40px dolgu/boşluk oluşturmak için kullandık
+
+}
+
+.link a { /*.link a --> link clası içinde link(a) varsa o linke bu css'i uygula demek*//*lesson2.html, satır: 139
+
+    color: red;
+    text-decoration: none; /*lesson2.html, satır: 144, buraya ifadesinin altındaki çizgiyi kaldırmak için
+}
+
+.link a:hover{ /*lesson2.html, satır: 145
+
+    color:darkslategray;
+    text-decoration:underline;
+    /* bu işlemleri sadece class olarak link verdiğimiz div tagi içinde olan linkde işe yarar biz tüm linklerde bunun işe yaramasını istersek eğer aşağıda gösterelim yorum satırı içinde
+}
+
+/*a:hover{ /*style.css, satır: 91
+    color: darkslategray;
+    text-decoration: underline;
+}
+
+.link a:active{/*lesson2.html, satır: 146
+    background-color: yellow;
+    color: blue;
+    text-decoration: none;
+}
+*/
+/*Lesson 11 | Tablolara Css Uygulamak */
+
